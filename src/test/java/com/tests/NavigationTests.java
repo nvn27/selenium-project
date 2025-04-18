@@ -12,7 +12,7 @@ public class NavigationTests extends BaseTest {
 	public void verifyNavigation() {
 		SoftAssert softAssert = new SoftAssert();
 
-		softAssert.assertEquals(basePage.getPageHeading(), "AskOmDchZZ", "Page heading verification failed");
+		softAssert.assertEquals(basePage.getWebsiteLogo(), "AskOmDch", "Page heading verification failed");
 
 		basePage.clickStoreMenu();
 		basePage.clickWomenMenu();
